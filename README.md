@@ -1,16 +1,87 @@
-# React + Vite
+# 🌱 CareSync
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### Real-Time Surplus Food Rescue Network
 
-Currently, two official plugins are available:
+CareSync is a real-time food redistribution platform that connects people and organizations with surplus food to nearby individuals, volunteers, and distribution teams who can claim and collect it.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+The goal is simple:
 
-## React Compiler
+> **Turn surplus food into immediate impact.**
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Instead of letting usable food go to waste, CareSync helps publish, discover, and claim available food resources through a location-based real-time platform.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🚀 Live Demo
+
+🌐 **Live Website:**  
+https://pankaj0621.github.io/caresync/
+
+📦 **GitHub Repository:**  
+https://github.com/pankaj0621/caresync
+
+---
+
+## ✨ Key Features
+
+### 🍱 Food Donation
+
+Publishers can list available surplus food with:
+
+- Food type
+- Quantity
+- Pickup location
+- Real-time availability
+- Publisher profile
+
+Once published, the food resource becomes available on the live map.
+
+---
+
+### 🗺️ Live Resource Map
+
+CareSync provides a location-based map where users can discover available food resources.
+
+Features include:
+
+- Interactive map
+- Food resource markers
+- Current user location
+- Pickup location
+- Real-time resource updates
+- Resource availability status
+
+---
+
+### 👤 User Registration & Authentication
+
+Users can create their CareSync account with:
+
+- Full name
+- Email
+- Phone number
+- Organization/business
+- Password
+
+Authentication is powered by Supabase Auth.
+
+---
+
+### 🔐 Secure Sign In
+
+Registered users can securely sign in and access the CareSync platform.
+
+The application maintains user sessions through Supabase authentication.
+
+---
+
+### 🎯 Food Claiming
+
+Users can claim available food resources.
+
+A food resource:
+
+```text
+Available
+    ↓
+Claimed
